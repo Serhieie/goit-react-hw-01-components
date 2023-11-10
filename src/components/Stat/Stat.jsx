@@ -5,7 +5,7 @@ import { Item, Percentage } from './Stat.styled';
 export default function Stat({ percentage, label, id }) {
   return (
     <Item key={id} style={{ backgroundColor: randomColor() }}>
-      <span>{label}</span>
+      <span>{label}.</span>
       <Percentage>{percentage}%</Percentage>
     </Item>
   );
